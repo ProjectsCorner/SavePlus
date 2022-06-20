@@ -1,0 +1,10 @@
+.half-width{
+  display: flex;
+  gap: 15px;
+  margin: 10px 0px;
+}
+.avtr{
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+}

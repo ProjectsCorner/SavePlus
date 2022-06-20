@@ -1,0 +1,22 @@
+.bg-im > img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.log_cntr{
+    display: flex;
+}
+.lnk-to{
+    display: flex;
+    /* gap: 60px; */
+    justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .lg_ctr {
+    flex-direction: column-reverse;
+  }
+  .bg-im{
+    display: none;
+}
+}
